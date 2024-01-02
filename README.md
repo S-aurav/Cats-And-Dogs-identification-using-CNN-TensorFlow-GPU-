@@ -104,7 +104,7 @@ pip install tensorflow-directml-plugin
 
 ### WSL
 
-Using Ubuntu 20
+Using Ubuntu 22.04 LTS
 
 Steps: 
 1. Make sure you have latest version of Graphics Driver installed
@@ -125,7 +125,7 @@ pip install --upgrade pip
 pip install tensorflow[and-cuda]
 ```
 
-Still trouble in setting up?, Having different Operating System other than Windows?, follow below link for detailed guide
+Still having trouble in setting up?, Having different Operating System other than Windows?, follow below link for detailed guide
 ```
 https://www.tensorflow.org/install/pip
 ```
@@ -142,3 +142,7 @@ https://www.kaggle.com/datasets/saurav818/cat-and-dog-identification-using-tenso
 
 3. Extract the dataset zip file in the same directory where you cloned the repository
 4. Open the notebook (CNN.ipynb) using Jupyter notebook
+5. And run each cell.
+
+## Performance evaluation
+It tool 10 min and 19s for completing training on AMD Ryzen 3 3200G (CPU) and NVIDIA RTX 3070 (GPU) using TensorFlow DirectML plugin.
