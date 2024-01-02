@@ -5,13 +5,13 @@ This model aims to identify cat and dog using images, it Convolution Neural Neto
 ## Requirements
 1. Tensorflow
 2. Python version >=3.8
-3. Miniconda (optional, but reccommended)
+3. Miniconda (optional, but recommended)
 
 ## Tensorflow setup
 ### Running notebook on CPU (slow training):
 1. Install python
    
-2. Install TensorFlow (version 2.10 reccommended)
+2. Install TensorFlow (version 2.10 recommended)
   ```
   pip install "tensorflow<=2.11"
   ```
@@ -37,7 +37,7 @@ Requirements:
 ```
 pip install Image
 pip install scipy
-pip install jupyter //optional but reccommended :)
+pip install jupyter //optional but recommended :)
 ```
 
 
@@ -146,7 +146,9 @@ https://www.kaggle.com/datasets/saurav818/cat-and-dog-identification-using-tenso
 
 ## Performance evaluation
 ![image](https://github.com/S-aurav/Cats-And-Dogs-identification-using-CNN-TensorFlow-GPU-/assets/65269078/83acd724-413a-41b2-a178-f60f749335d3)
-
 Achieve accuracy of 85.91%
+
+
+![image](https://github.com/S-aurav/Cats-And-Dogs-identification-using-CNN-TensorFlow-GPU-/assets/65269078/788c3414-c42c-4632-a6bb-2a6daf90812a)
 
 Training time of 10min 56 sec for 25 Epochs on AMD Ryzen 3 3200G (CPU) and NVIDIA RTX 3070 (GPU) using TensorFlow DirectML plugin.
