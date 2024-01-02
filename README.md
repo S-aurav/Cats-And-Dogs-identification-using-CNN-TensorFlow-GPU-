@@ -133,7 +133,7 @@ https://www.tensorflow.org/install/pip
 ## Getting started
 1. Clone the repository
 ```
-git clone 
+git clone https://github.com/S-aurav/Cats-And-Dogs-identification-using-CNN-TensorFlow-GPU-.git
 ```
 2. Download the Dataset from Kaggle (Link below)
 ```
