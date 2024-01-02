@@ -97,20 +97,38 @@ Steps:
 Install TensorFlow DirectML Plugin
 ```
 pip install tensorflow-directml-plugin
+
+// If TensorFlow isn't installed, it will install automatically
 ```
 
 
+### WSL
 
-
--------------------###WSL###-------------------
+Using Ubuntu 20
 
 Steps: 
+1. Make sure you have latest version of Graphics Driver installed
+2. Also, make sure you are using WSL 2, as it only works with WSL version 2
+3. Verify Nvidia GPU support in WSL
 
-1. Verify Nvidia GPU support in WSL
-	nvidia-smi
+```
+nvidia-smi
+```
+4. Update pip to latest version
 
-2. pip install --upgrade pip
-3. pip install tensorflow[and-cuda]
+```
+pip install --upgrade pip
+```
+5. Install tensorflow with GPU support (Uses CUDA)
+
+```
+pip install tensorflow[and-cuda]
+```
+
+Still trouble in setting up?, Having different Operating System other than Windows?, follow below link for detailed guide
+```
+https://www.tensorflow.org/install/pip
+```
 
 ## Getting started
 1. Clone the repository
@@ -123,3 +141,4 @@ https://www.kaggle.com/datasets/saurav818/cat-and-dog-identification-using-tenso
 ```
 
 3. Extract the dataset zip file in the same directory where you cloned the repository
+4. Open the notebook (CNN.ipynb) using Jupyter notebook
