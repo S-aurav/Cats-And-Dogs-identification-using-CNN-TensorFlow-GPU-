@@ -145,4 +145,8 @@ https://www.kaggle.com/datasets/saurav818/cat-and-dog-identification-using-tenso
 5. And run each cell.
 
 ## Performance evaluation
-It tool 10 min and 19s for completing training on AMD Ryzen 3 3200G (CPU) and NVIDIA RTX 3070 (GPU) using TensorFlow DirectML plugin.
+![image](https://github.com/S-aurav/Cats-And-Dogs-identification-using-CNN-TensorFlow-GPU-/assets/65269078/83acd724-413a-41b2-a178-f60f749335d3)
+
+Achieve accuracy of 85.91%
+
+Training time of 10min 56 sec for 25 Epochs on AMD Ryzen 3 3200G (CPU) and NVIDIA RTX 3070 (GPU) using TensorFlow DirectML plugin.
