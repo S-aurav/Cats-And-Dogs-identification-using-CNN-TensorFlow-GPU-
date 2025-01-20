@@ -1,4 +1,4 @@
-# Cats and Dogs identification using CNN TensorFlow (GPU)
+# Image Classification using CNN TensorFlow (GPU)
 
 This model aims to identify cat and dog using images, it Convolution Neural Netowrk (CNN) model built using TensorFlow
 
